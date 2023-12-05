@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF=8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="midasi">
+<h1>プログラム復習コンテンツ</h1>
+<a href="https://o-saringu.github.io/mokuji/">
+<div class="home"></div>
+</a>
+</div>
+
+<div class="oomidasi"><p>pmouseX変数,pmouseY変数</div>
+
+<div class="yoko">
+	<div class="yoko1">
+	<div class="komidasi1"><p>サンプルコードの結果</p></div>
+	<img src = "5-5.png">
+	</div>
+	<div class="yoko1">
+	<div class="komidasi2"><p>サンプルコード</div>
+	<div class="code">
+	<p>　　	void setup(){
+	<p>　　	　size(480, 120);
+	<p>　　	　strokeWeight(4);
+	<p>　　	　stroke(0, 102);
+	<p>　　	}
+	<p>　　	void draw(){
+	<p>　　	　line(mouseX, mouseY, pmouseX, pmouseY);
+	<p>　　	}
+	</div>
+	</div>
+</div>
+
+<div class="komidasi3"><p>説明文</div>
+<div class="ep">
+	<p>　pmouseX変数とpmouseY変数は、1つ前のフレームにおけるマウスの位置を記憶して、値に変換する。
+	<p>　mouseXやmouseYと同様にdraw()が実行されるたびに値が更新される。
+	<p>　これらの変数を組み合わせてline()関数に組み込むと現在の位置と前回の位置が繋がっている線を描くことができる。
+
+</div>
+</body>
